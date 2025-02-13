@@ -1,6 +1,6 @@
 # Valentine's Day Website
 
-This project is a customizable website built using for the Valentine Dat. Users can personalize it by adding their own images, videos, and songs.
+This project is a customizable website built using for the Valentine`s Date. Users can personalize it by adding their own images, videos, and songs(playable on the website).
 
 ## Installation
 
