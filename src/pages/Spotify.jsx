@@ -3,9 +3,9 @@ import "../styles/spotify.css";
 
   // Example song list. Add or replace songs with your own.
 const songs = [
-  { name: "Song 1", image: "/assets/song1.jpg", audio: "/assets/song1.mp3" }, 
-  { name: "Song 2", image: "/assets/song2.jpg", audio: "/assets/song2.mp3" },
-  { name: "Song 3", image: "/assets/song3.jpg", audio: "/assets/song3.mp3" },
+  { name: "Любімая", image: "/assets/song1.jpg", audio: "/assets/song1.mp3" }, 
+  { name: "Люблю", image: "/assets/song2.jpg", audio: "/assets/song2.mp3" },
+  { name: "Тібя", image: "/assets/song3.jpg", audio: "/assets/song3.mp3" },
 ];
 
 const Spotify = () => {
@@ -33,12 +33,12 @@ const Spotify = () => {
       <div className="photo-container">
         <div className="photo-box">
           <img src="/assets/me.jpg" alt="me" className="photo" />
-          <p className="photo-name">me</p> {}
+          <p className="photo-name">Жабеня</p> {}
         </div>
         <div className="plus-sign">+</div>
         <div className="photo-box">
           <img src="/assets/you.jpg" alt="you" className="photo" />
-          <p className="photo-name">you</p>
+          <p className="photo-name">Кісь кіся</p>
         </div>
       </div>
       <div className="song-list">

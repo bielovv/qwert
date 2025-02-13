@@ -14,7 +14,7 @@ const ValentinePage = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 550);
+    }, 2000);
     return () => clearInterval(interval);
   }, []);
 
@@ -48,7 +48,7 @@ const ValentinePage = () => {
             muted  
             playsInline
           /> 
-          <h1 className="valentine-text">Your text ❤️</h1>  {/*Text displayed after the button "Yes" is clicked*/} 
+          <h1 className="valentine-text">Люлю кисю, с праздником ❤️</h1>  {/*Text displayed after the button "Yes" is clicked*/} 
         </>
       ) : (
         <div className="button-group">
