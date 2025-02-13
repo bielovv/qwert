@@ -113,11 +113,8 @@
   cursor: default;
 }
 
-.no-btn:hover {
-  transform: translate(
-    calc(100px - 200 * (Math.random() - 0.5)),
-    calc(100px - 200 * (Math.random() - 0.5))
-  );
+.no-btn {
+  transition: transform 0.3s ease-out;
 }
 
 
